@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Nums;
+    src: url('../Fonts/Anton-Regular.ttf');
+}
+@font-face {
+    font-family: Lett;
+    src: url('../Fonts/Padauk-Regular.ttf');
+}
+body{
+    background-color: #1D1E20;
+    cursor:crosshair;
+    position:fixed;
+    height:100vh;
+    width:100vw;
+    top:0;
+    left:0;
+    color:aliceblue;
+    font-family: Nums;
+}
+header{
+    background-color: #373A41 ;
+    top: 0;
+    left: 0;
+    position:fixed;
+    width: 100vw;
+    height: 10vh;
+    color:aliceblue;
+    font-family: Nums;
+}
+footer{
+    background-color: #373A41 ;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+    width: 100vw;
+    height: 10vh;
+    color:aliceblue;
+    font-family: Nums;
+}
+#workingIndicator{
+  height:2vh;
+  top:0;
+  position:fixed;
+  left:0;
+  width:100vw;
+  background-color: #F9EA66;
+  color:#1D1E20;
+  font-size: 1.75vh;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+date{
+    height: 3vh;
+    font-size:3vh;
+    position:absolute;
+    bottom:5vh;
+    left:.5vw;
+}
+time{
+    height: 3vh;
+    font-size:3vh;
+    position:absolute;
+    bottom:1vh;
+    left:.5vw;
+}
+username{
+    width:60vw;
+    left:20vw;
+    bottom:1vh;
+    font-family: nums;
+    font-size:3vh;
+    position:absolute;
+    text-align: center;
+}
+#optionsBtn{
+    top:1vh;
+    height: 8vh;
+    width:8vh;
+    right:.5vw;
+    position:absolute;
+    background-color: transparent;
+    border-radius: 90px;
+    border-color:transparent;
+    background-image: url('../Img/optionsBtn.png');
+    background-position: center;
+    background-size:cover;
+    cursor:pointer;
+}
+.footerBtn{
+    position:absolute;
+    bottom:0;
+    height: 9vh;
+    width: 10vw;
+    background-color: #1D1E20;
+    font-family: nums;
+    font-size:2.25vh;
+    color: #5FB49C;
+}
+/* #exitBtn{ */
+#firstBtn{
+    left: 1vw;
+    color:#ff3333;
+}
+/* #backBtn{ */
+#secondBtn{
+    left: 12vw;
+    color:#ff3333;
+}
+/* #deleteBtn{ */
+#thirdBtn{
+    left:23vw;
+    color:#ff3333;
+}
+/* #sendStayBtn{ */
+#fourthBtn{
+    left:34vw;
+}
+/* #sendBtn{ */
+#fifthBtn{
+    left:45vw;
+}
+/* #modifyBtn{ */
+#sixthBtn{
+    left: 56vw;
+}
+/* #holdBtn{ */
+#seventhBtn{
+    left:67vw;
+    color:#F9EA66;
+}
+/* #splitBtn{ */
+#eighthBtn{
+    left: 78vw;
+}
+/* #functionsBtn{ */
+#ninthBtn{
+    left:89vw;
+}
+/* #printBtn{ */
+#tenthBtn{
+  left: 12vw;
+  color:#ff3333;
+}
+/* #printAllBtn{ */
+#eleventhBtn{
+  left:23vw;
+  color:#ff3333;
+}
+/* #paymentBtn{ */
+#twelvethBtn{
+  left:67vw;
+  color:#F9EA66;
+}
+/* #compBtn{ */
+#thirteenthBtn{
+  left: 78vw;
+}
+.keypad{
+    position:fixed;
+    height:10vh;
+    width:10vh;
+    background-color: #373A41;
+    color:aliceblue;
+}
+#oneBtn{
+    top: 25vh;
+    left: calc(50vw - 20vh);
+}
+#twoBtn{
+    top: 25vh;
+    left: calc(50vw - 5vh);
+}
+#threeBtn{
+    top: 25vh;
+    left: calc(50vw + 10vh);
+}
+#fourBtn{
+    top: 40vh;
+    left: calc(50vw - 20vh);
+}
+#fiveBtn{
+    top: 40vh;
+    left: calc(50vw - 5vh);
+}
+#sixBtn{
+    top: 40vh;
+    left: calc(50vw + 10vh);
+}
+#sevenBtn{
+    top: 55vh;
+    left: calc(50vw - 20vh);
+}
+#eightBtn{
+    top: 55vh;
+    left: calc(50vw - 5vh);
+}
+#nineBtn{
+    top: 55vh;
+    left: calc(50vw + 10vh);
+}
+#cancelBtn{
+    top: 70vh;
+    left: calc(50vw - 20vh);
+    color:#ff3333;
+}
+#zeroBtn{
+    top: 70vh;
+    left: calc(50vw - 5vh);
+}
+#enterBtn{
+    top: 70vh;
+    left: calc(50vw + 10vh);
+    color: #0fdb0f;
+}
+
+
+
