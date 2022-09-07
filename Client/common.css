@@ -86,6 +86,29 @@ username{
     background-size:cover;
     cursor:pointer;
 }
+#optionsContainer{
+    position:fixed;
+    top:-1vw;
+    right:-1vw;
+    height:110vh;
+    width:41vw;
+    background-color:#373A41;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+}
+#xBtn{
+    position:fixed;
+    top: 1vh;
+    right: .5vw;
+    height:8vh;
+    width:8vh;
+    background-image: url('../Img/xBtn.png');
+    background-position:center;
+    background-size: cover;
+    background-color: transparent;
+    border-width: 0;
+}
 .footerBtn{
     position:absolute;
     bottom:0;
